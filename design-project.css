@@ -37,7 +37,7 @@ body {
 
 
 .circle1 {
-    background-color: #00ABA9 !important;
+    background-color: #E6563B !important;
 }
 
 
@@ -46,11 +46,11 @@ body {
 }
 
 .circle3 {
-    background-color: #E6563B;
+    background-color: #7CB06C;
 }
 
 .circle4 {
-    background-color: #7CB06C;
+    background-color: #00ABA9;
 }
 
 .row {
@@ -64,4 +64,9 @@ h6 {
 
 .pics {
     border: 5px solid #E6E6E6;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
 }
