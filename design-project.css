@@ -38,7 +38,7 @@ body {
     width: 105px;
     background-color: #E6563B;
     border-radius: 50%;
-    border-color: white;
+    border: 8px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,7 @@ body {
     width: 105px;
     background-color: #7CB06C;
     border-radius: 50%;
+    border: 8px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,9 +65,15 @@ body {
     width: 105px;
     background-color: #00ABA9;
     border-radius: 50%;
+    border: 8px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Anton', sans-serif;
 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
 }
