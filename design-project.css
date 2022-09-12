@@ -1,3 +1,11 @@
+nav {
+    background-color: #F0F0F0;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
 .h1FontAnton {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
@@ -16,7 +24,12 @@
     width: 105px;
     background-color: #EB9D3A;
     border-radius: 50%;
-    display: inline-block;
+    border: 8px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+
 }
 
 .dot1 {
@@ -25,7 +38,11 @@
     width: 105px;
     background-color: #E6563B;
     border-radius: 50%;
-    display: inline-block;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
 }
 
 .dot3 {
@@ -34,7 +51,11 @@
     width: 105px;
     background-color: #7CB06C;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+
 }
 
 .dot4 {
@@ -43,5 +64,9 @@
     width: 105px;
     background-color: #00ABA9;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+
 }
