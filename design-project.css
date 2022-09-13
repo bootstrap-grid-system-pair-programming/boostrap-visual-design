@@ -95,9 +95,13 @@ p {
     row-gap: 20px;
     text-align: left;
 }
+
+/*      use code below to center last text header; leave in comment to align left       */
+
 .blog-posts h6 {
     text-align: center;
 }
+
 .blog-post {
     display: flex;
     column-gap: 15px;
