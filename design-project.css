@@ -93,15 +93,18 @@ p {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    text-align: left;
 }
-
+.blog-posts h6 {
+    text-align: center;
+}
 .blog-post {
     display: flex;
     column-gap: 15px;
 }
 .blog-post h3 {
     font-family: 'Anton', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
     text-align: left;
 }
